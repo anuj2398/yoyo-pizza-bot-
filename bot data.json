@@ -1,0 +1,99 @@
+{
+  "responseId": "5e382b44-5878-46de-bed1-abd678f00aff-9a925d01",
+  "queryResult": {
+    "queryText": "vip azara",
+    "parameters": {
+      "cust_address": "vip azara",
+      "cust_name": "levi",
+      "cust_email": "levi@gmail.com",
+      "cust_phone": "7654567876"
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Thank you for the visit. you will get your order within 30 mins.",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Thank you for the visit. you will get your order within 30 mins."
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/yo-yo-pizza--cbhy/agent/sessions/c0b90b55-c672-a1ff-e7be-e6da5cf6d227/contexts/yoyo-pizza-confirm",
+        "lifespanCount": 5,
+        "parameters": {
+          "cust_name": "levi",
+          "cust_email": "levi@gmail.com",
+          "cust_phone": "7654567876",
+          "cust_address": "vip azara",
+          "cust_address.original": "vip azara",
+          "cust_phone.original": "7654567876",
+          "cust_email.original": "levi@gmail.com",
+          "cust_name.original": "levi"
+        }
+      },
+      {
+        "name": "projects/yo-yo-pizza--cbhy/agent/sessions/c0b90b55-c672-a1ff-e7be-e6da5cf6d227/contexts/yoyo-pizza-toppings",
+        "lifespanCount": 4,
+        "parameters": {
+          "cust_address": "vip azara",
+          "cust_phone": "7654567876",
+          "pizza-toppings": "bacon",
+          "cust_address.original": "vip azara",
+          "cust_phone.original": "7654567876",
+          "cust_email": "levi@gmail.com",
+          "cust_name.original": "levi",
+          "cust_email.original": "levi@gmail.com",
+          "pizza-toppings.original": "bacon",
+          "cust_name": "levi"
+        }
+      },
+      {
+        "name": "projects/yo-yo-pizza--cbhy/agent/sessions/c0b90b55-c672-a1ff-e7be-e6da5cf6d227/contexts/yoyo-pizza-name",
+        "lifespanCount": 1,
+        "parameters": {
+          "pizza-size.original": "small",
+          "yoyo-pizza-name": "",
+          "pizza-size": "small",
+          "pizza-toppings": "bacon",
+          "pizza-toppings.original": "bacon",
+          "cust_email": "levi@gmail.com",
+          "cust_address.original": "vip azara",
+          "cust_phone.original": "7654567876",
+          "cust_name": "levi",
+          "cust_name.original": "levi",
+          "cust_phone": "7654567876",
+          "cust_email.original": "levi@gmail.com",
+          "yoyo-pizza-name.original": "",
+          "cust_address": "vip azara"
+        }
+      },
+      {
+        "name": "projects/yo-yo-pizza--cbhy/agent/sessions/c0b90b55-c672-a1ff-e7be-e6da5cf6d227/contexts/yoyo-pizza-size",
+        "lifespanCount": 2,
+        "parameters": {
+          "cust_address.original": "vip azara",
+          "pizza-size": "small",
+          "cust_phone": "7654567876",
+          "pizza-size.original": "small",
+          "cust_address": "vip azara",
+          "pizza-toppings.original": "bacon",
+          "cust_email.original": "levi@gmail.com",
+          "cust_name.original": "levi",
+          "cust_email": "levi@gmail.com",
+          "pizza-toppings": "bacon",
+          "cust_phone.original": "7654567876",
+          "cust_name": "levi"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/yo-yo-pizza--cbhy/agent/intents/9dc1eaef-6d64-43a5-abae-978a36eeb671",
+      "displayName": "yoyo-pizza-confirm"
+    },
+    "intentDetectionConfidence": 0.3,
+    "languageCode": "en"
+  }
+}
