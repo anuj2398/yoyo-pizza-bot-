@@ -9,4 +9,4 @@ snapshot of the UI - ![pizzasnap](https://user-images.githubusercontent.com/5940
 
 snapshot of intents - ![intents](https://user-images.githubusercontent.com/59406385/105693740-19baca80-5f26-11eb-9590-62513b33cb41.png)
 
-snapshot of entities - ![intents](https://user-images.githubusercontent.com/59406385/105693740-19baca80-5f26-11eb-9590-62513b33cb41.png)
+snapshot of entities - 
